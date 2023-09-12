@@ -1,4 +1,4 @@
-import { subSeconds } from "date-fns";
+import { subHours } from "date-fns";
 import { Op } from "sequelize";
 import Contact from "../../models/Contact";
 import Ticket from "../../models/Ticket";
@@ -67,7 +67,7 @@ const FindOrCreateTicketService = async (
     ticket = await Ticket.findOne({
       where: {
         updatedAt: {
-          [Op.between]: [+subSeconds(new Date(), timeCreateNewTicket), +new Date()]
+          [Op.between]: [+subHours(new Date(), 2), +new Date()]
         },
         contactId: contact.id
       },
