@@ -1,5 +1,5 @@
 # WhatsPainel/WhaTicket Saas</br>
-Funcionando com Baileys 6.4.0 - Julho de 2023 </br>
+Funcionando com Baileys 6.4.1 - Agosto de 2023 </br>
 </br> Atualizado referencias para a bilioteca @WhiskeySockets/Baileys</br>
 Modificado AnyWASocket, WALegacySocket, LegacyAuthenticationCreds</br>
 </br>
@@ -30,14 +30,11 @@ Planos Futuros:
 Atualização de Material UI 4 para MUI 5
 Instruções de  e Webhook Facebook (Messenger e Direct).
 
-Bugs:
-Parar de repertir o menu de sub-opção se uma resposta é invalida, ou escolher a opção e digitar a seguir.
-Envio para grupos em alguns servidores - avaliando que se trocar o dns do servidor resolve
+* Não repete mais o menu em opção chatboot, más precisa ter duas ou mais opções para listar.
 
 Em Observação:
 Tickets de Admin são fechados automaticamente na avaliação </br>
 Tickets de usuários recebem a nota e só fecham e enviam disparo da mensagem de encerramento quando clica novamente em resolver.
-Adcionar Módulo de Tarefas
 Ao modificar gerenciamento de horários limpe as configurações anteriores primeiro.
 
 URL WEBHOOK META:
